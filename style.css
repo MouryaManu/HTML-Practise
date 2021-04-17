@@ -85,6 +85,7 @@ hr{
 {
     color: var(--grey);
     padding-top: 3rem;
+    text-align: center;
 }
 .hero .hero-txt .heading-inverted
 {
@@ -93,7 +94,7 @@ hr{
 section{
     padding: 2rem;
 }
-.section h1, h2{
+.section h1, h2 {
     text-align: center;
     padding: 1.5rem 0rem;
 }
@@ -109,6 +110,7 @@ section{
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
+    margin-top: 2rem;
 }
 .footer li{
     color: white;
