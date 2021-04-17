@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap');
+body{
+    font-family: 'Comic Neue', cursive;
+}
+:root{
+    --primary-color: #E53E3E;
+    --secondary-color: #EDF2F7; 
+    --grey: #718096;
+}
+hr{
+    margin-bottom: 2rem;
+}
+.link {
+    padding: 1rem 0.5rem;
+    text-decoration: none;
+    color: white;
+}
+.button-primarylink
+{
+   text-decoration: none;
+   background-color: var(--primary-color);
+   border-radius: 0.5rem;
+   color: white;
+}
+.button-secondarylink
+{
+    text-decoration: none;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 0.5rem;
+}
+hr{
+    margin: 2rem 0rem;  
+}
+.container-fluid
+{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: auto;
+}
+.container-center
+{
+    text-align: center;
+}
+.no-bullets
+{
+    list-style: none;
+}
+.inline-list
+{
+    display: inline;
+    padding: 0.5rem 1rem;
+    
+    
+}
+.navigation{
+   background-color: var(--primary-color);
+   padding: 1rem 0.5rem;
+   color: white;
+   border-bottom-left-radius: 1rem;
+}
+.navigation .nav-link{
+    color:white;
+    text-align: right;
+}
+.navbrand
+{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.navigation .link-active
+{
+    font-weight: bold;
+}
+.hero{
+    padding: 2rem;
+}
+.hero .hero-img
+{
+    max-width: 360px;
+    display: block;
+    margin: auto;
+}
+.hero .hero-txt
+{
+    color: var(--grey);
+    padding-top: 3rem;
+}
+.hero .hero-txt .heading-inverted
+{
+    color: var(--primary-color);
+}
+section{
+    padding: 2rem;
+}
+.section h1, h2{
+    text-align: center;
+    padding: 1.5rem 0rem;
+}
+.offwhitebg
+{
+    background: var(--secondary-color);
+    padding: 1rem 0rem;
+}
+.footer
+{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+.footer li{
+    color: white;
+}
