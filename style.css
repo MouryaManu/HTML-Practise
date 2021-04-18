@@ -14,6 +14,7 @@ hr{
     padding: 1rem 0.5rem;
     text-decoration: none;
     color: white;
+
 }
 .button-primarylink
 {
@@ -21,6 +22,7 @@ hr{
    background-color: var(--primary-color);
    border-radius: 0.5rem;
    color: white;
+   margin-bottom: 1rem;
 }
 .button-secondarylink
 {
@@ -28,9 +30,13 @@ hr{
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
     border-radius: 0.5rem;
+    margin-bottom: 1rem;
 }
 hr{
     margin: 2rem 0rem;  
+}
+.container p{
+    margin-bottom: 3rem;
 }
 .container-fluid
 {
@@ -41,6 +47,13 @@ hr{
 .container-center
 {
     text-align: center;
+}
+.container .projects-link
+{
+    display: block;
+    max-width: 360px;
+    margin: auto;
+    margin-top: 2rem;
 }
 .no-bullets
 {
@@ -96,7 +109,10 @@ section{
 }
 .section h1, h2 {
     text-align: center;
-    padding: 1.5rem 0rem;
+    padding: 0.5rem 0rem;
+}
+.section p{
+    padding-bottom: 2rem;
 }
 .offwhitebg
 {
@@ -114,4 +130,7 @@ section{
 }
 .footer li{
     color: white;
+}
+.link .link-active{
+    text-decoration: bold;
 }
