@@ -7,14 +7,17 @@
     <title>Blog1 | Mourya</title>
     <link href="blogstyles.css" rel="stylesheet" />
 </head>
-<body>
-     <h1>CSS Selectors</h1>
+<body> 
+    <div class="center">
+    <nav>
+     <h1 class="head">CSS Selectors</h1>
      <p class="date">May 1,2021</p>
      <img src="images\css-selectors-1f0064.png", alt="A CSS Selector image" />
+    </nav>
      <h1>Selectors</h1>
      <h3>CSS Selectors selects HTML elements to which we want to apply styles.</h3>
      <p>They can be divided into five categories.They are:</p>
-     <ul>
+     <ul class="space">
          <li>Simple Selectors</li>
          <li>Combinational Selectors</li>
          <li>Pseudo-class Selectors</li>
@@ -25,25 +28,25 @@
      <h1>Simple Selectors:</h1>
      <h3>Selects elements based on name, id, class.</h3>
      <ul>
-         <li>Universal Selector
+         <li><span>Universal Selector</span>
           <p>Selects all elements in the entire document or can be restricted to specific namespace.</p>
-          <p>Syntax: * </p>
-          <p>Example: * will select all the elements in the document.</p>   
+          <p><span>Syntax:</span> * </p>
+          <p><span>Example:</span> * will select all the elements in the document.</p>   
          </li>
-         <li> Type Selector
+         <li> <span>Type Selector</span> 
             <p>Selects all elements that has given node name.</p>
-            <p>Syntax: elementname </p>
-            <p>Example: button will select < button> element.</p>
+            <p><span>Syntax:</span> elementname </p>
+            <p><span>Example:</span> button will select < button> element.</p>
          </li>
-         <li> Class Selector
+         <li> <span>Class Selector</span>
             <p>Selects all elements that has given class attribute.</p>
-            <p>Syntax: .classname </p>
-            <p>Example: .list will select the element that has a class "list" in the document.</p>
+            <p><span>Syntax:</span> .classname </p>
+            <p><span>Example:</span> .list will select the element that has a class "list" in the document.</p>
          </li>
-         <li> ID Selector
+         <li> <span>ID Selector</span>
             <p>Selects all elements that has given ID attribute.ID should be unique</p>
-            <p>Syntax: #idname </p>
-            <p>Example: #main will select the element that has ID "main" in the document.</p>
+            <p><span>Syntax:</span> #idname </p>
+            <p><span>Example:</span> #main will select the element that has ID "main" in the document.</p>
          </li>
          
      </ul>
@@ -52,32 +55,34 @@
      <div>
          <h1>Combinational Selectors:</h1>
          <h3>A CSS Selector that has more than one simple selector.</h3>
-         <li>Descendant Combinator
+         <ul>
+         <li><span>Descendant Combinator</span>
              <p>The " "(space) combinator selects nodes that are descendents of the first element. </p>
-             <p>Syntax: A B</p>
-             <p>Example: div p will match all < p> elements that are inside a < div> element.</p>
+             <p><span>Syntax:</span> A B</p>
+             <p><span>Example:</span> div p will match all < p> elements that are inside a < div> element.</p>
          </li>
-         <li>Child Combinator
+         <li><span>Child Combinator</span>
             <p>The > combinator selects nodes that are direct children of the first element. </p>
-            <p>Syntax: A > B</p>
-            <p>Example: div > p will match all < p> elements that are directly inside a < div> element.</p>
+            <p><span>Syntax:</span> A > B</p>
+            <p><span>Example:</span> div > p will match all < p> elements that are directly inside a < div> element.</p>
          </li>
-         <li>Genral Sibling Combinator
+         <li><span>Genral Sibling Combinator</span>
             <p>The ~ combinator selects siblings.
             i.e., second element follows the first one. </p>
-            <p>Syntax: A ~ B</p>
-            <p>Example: div ~ p will match all < p> elements that follow < div> immediately or not.</div></p>
+            <p><span>Syntax:</span> A ~ B</p>
+            <p><span>Example:</span> div ~ p will match all < p> elements that follow < div> immediately or not.</p>
          </li>
-         <li>Adjacent Sibling Combinator
+         <li><span>Adjacent Sibling Combinator</span>
             <p>The + combinator selects adjacent siblings. i.e., second element directly follows the first. </p>
-            <p>Syntax: A B</p>
-            <p>Example: div + p will match all < p> elements that directly follow < div> element.</div></p>
+            <p><span>Syntax:</span> A B</p>
+            <p><span>Example:</span> div + p will match all < p> elements that directly follow < div> element.</p>
          </li>
-         <li>Column Combinator
+         <li><span>Column Combinator</span>
             <p>The || combinator selects nodes that belong to a column. </p>
-            <p>Syntax: A || B</p>
-            <p>Example: col || td will match all < td> elements that belong to scope of < col>.</div></p>
+            <p><span>Syntax:</span> A || B</p>
+            <p><span>Example:</span> col || td will match all < td> elements that belong to scope of < col>.</p>
          </li>
+        </ul>
      </div>
      <div>
          <h1>Pseudo-class Selectors</h1>
@@ -85,19 +90,19 @@
          <p>Example use cases:</p>
          <ul>
              <li>To style differently when mouse hovers over an element
-                 <p>Example: a:hover {
+                 <p><span>Example:</span> a:hover {
                    color: red;
                    }
                  </p>
              </li>
              <li>To style when an element gets focused
-                 <p>Example: a:active{
+                 <p><span>Example:</span> a:active{
                    color: green;
                  }
                  </p>
              </li>
              <li>To style visited and unvisited links differently
-                 <p> Example:  a:link {
+                 <p> <span>Example:</span>  a:link {
                    color: #FF0000;
                  },
                  a:visited{
@@ -111,28 +116,33 @@
          <h1>Pseudo-element Selectors: </h1>
          <h3>Used to style specific parts of an element.</h3>
          <p>Example use cases:</p>
+         <ul>
          <li>To style first letter, line of an element.
-             <p>Example:  p::first-line { --
+             <p><span>Example:</span>  p::first-line { --
              }
              </p>
          </li>
          <li>To insert contenr before, after the content of an element.
-             <p>Example: h1::before {
+             <p><span>Example:</span> h1::before {
                 content: -- 
             }
              </p>
          </li>
+         </ul>
      </div>
      <div>
          <h1>Attribute Selectors: </h1>
-         <li>Example use cases:
-            <p>Styles HTML elements that have specific attributes or attribute values.</p>
+         <h3>Styles HTML elements that have specific attributes or attribute values.</h3>
+         <p>Example use cases:</p>
+        <ul>
+             <li>
             <p>Syntax: [attr], [attr=value], [attr~=value], etc. </p>
-            <p>Example: [autoplay] will select the element whose attribute was set to "autoplay" in the document.</p>
+            <p><span>Example:</span> [autoplay] will select the element whose attribute was set to "autoplay" in the document.</p>
          </li>
+         </ul>
      </div>
 
-
+    </div>
      
 </body>
 </html>
