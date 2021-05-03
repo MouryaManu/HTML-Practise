@@ -127,11 +127,54 @@ section{
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
-    margin-top: 2rem;
+    margin-top: 4rem;
+    
 }
 .footer li{
     color: white;
 }
 .link .link-active{
     text-decoration: bold;
+}
+.my-image{
+    width: 50%;
+    max-width: 360px;
+    max-height: 360px;
+    margin-top: 2rem;
+    border-radius: 2rem;
+    display: inline; 
+    
+}
+.image-txt {
+    display: inline;
+    position: absolute;
+    margin: 2rem;
+    background-color: var(--secondary-color);
+    border-radius: 1rem;
+    height: 75%;
+    padding: 2rem;
+    text-align: center;
+    overflow: scroll;
+    
+}
+.about-me {
+    text-align: left;
+    font-size: x-large;
+    margin-bottom: 1rem;
+}
+.resume{
+    height: 100%;
+    width: 100%;
+    margin: 1rem;
+    position: relative;
+   
+}
+.hello{
+    display: block;
+    text-align: left;
+    margin-bottom: 1rem;
+    font-size: large;
+}
+span{
+    display: block;
 }
